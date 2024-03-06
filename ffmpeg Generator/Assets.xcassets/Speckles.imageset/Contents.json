@@ -1,0 +1,20 @@
+{
+  "images" : [
+    {
+      "filename" : "FFmpeg Speckles.heic",
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "FFmpeg Speckles Wide.heic",
+      "idiom" : "mac"
+    },
+    {
+      "filename" : "FFmpeg Speckles Wide 1.heic",
+      "idiom" : "vision"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

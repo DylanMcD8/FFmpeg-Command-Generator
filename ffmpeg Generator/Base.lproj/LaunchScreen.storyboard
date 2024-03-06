@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PAY-pw-53o">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Settings-->
+        <scene sceneID="1ki-W4-tdT">
+            <objects>
+                <viewController title="Settings" id="PAY-pw-53o" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JpI-mt-m6G">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KYW-M6-gPI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <imageReference key="image" image="Speckles"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mv0-GY-NJd">
+                                <rect key="frame" x="75" y="256" width="225" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="XgZ-Tz-0Vk"/>
+                                </constraints>
+                                <imageReference key="image" image="FFmpeg Generator Terminal Icon Small"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="EYq-BM-Ptk"/>
+                        <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mv0-GY-NJd" firstAttribute="centerY" secondItem="JpI-mt-m6G" secondAttribute="centerY" id="5a9-fm-g9z"/>
+                            <constraint firstItem="mv0-GY-NJd" firstAttribute="leading" secondItem="EYq-BM-Ptk" secondAttribute="leading" constant="75" id="7is-sJ-AXB"/>
+                            <constraint firstAttribute="bottom" secondItem="KYW-M6-gPI" secondAttribute="bottom" id="Jrb-06-Oc7"/>
+                            <constraint firstItem="mv0-GY-NJd" firstAttribute="centerX" secondItem="JpI-mt-m6G" secondAttribute="centerX" id="LC9-pK-xwo"/>
+                            <constraint firstAttribute="trailing" secondItem="mv0-GY-NJd" secondAttribute="trailing" constant="75" id="MkR-XO-8R9"/>
+                            <constraint firstItem="KYW-M6-gPI" firstAttribute="top" secondItem="JpI-mt-m6G" secondAttribute="top" id="Mv4-8K-nMm"/>
+                            <constraint firstItem="KYW-M6-gPI" firstAttribute="trailing" secondItem="EYq-BM-Ptk" secondAttribute="trailing" id="exz-TW-jnA"/>
+                            <constraint firstItem="KYW-M6-gPI" firstAttribute="leading" secondItem="EYq-BM-Ptk" secondAttribute="leading" id="hF2-66-X5K"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tasks" image="second" id="jQW-5H-LQb"/>
+                    <navigationItem key="navigationItem" id="Y8M-8z-AOC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FMH-WL-RYK" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1165.5999999999999" y="-626.60098522167493"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="FFmpeg Generator Terminal Icon Small" width="691" height="554"/>
+        <image name="Speckles" width="2160" height="2160"/>
+        <image name="second" width="30" height="30"/>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

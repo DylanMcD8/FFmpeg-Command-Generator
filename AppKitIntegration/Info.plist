@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Privacy - AppleEvents Sending Usage Descriptionn</key>
+	<string>FFmpeg Command Generator uses AppleScript to run your generated Terminal commands for you. Use at your own risk.</string>
+</dict>
+</plist>
