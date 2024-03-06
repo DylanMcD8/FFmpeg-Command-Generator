@@ -6,4 +6,6 @@ Supports iPhone, iPad, Mac, and Apple Vision Pro, with a custom-tailored interfa
 
 If locally running the Mac version on your machine, you can change the `useAppleScript` variable at the top of `AppDelegate` to `true` to enable one-click running of your generated command in Terminal. Use at your own risk. Note: this feature is unavaliable in the App Store version due to Apple restrictions.
 
+This code is provided primarily for reference and demo purposes. If you wish to use the code, please do so in accordance with the MIT License, including adding a credit within your app.
+
 Please view the [website](https://www.sunapps.org/ffmpeg-generator) for more information!
